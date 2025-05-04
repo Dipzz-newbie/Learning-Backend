@@ -1,0 +1,19 @@
+{
+  "name": "learning-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "SET NODE_ENV=development & node index.js",
+    "start": "SET NODE_ENV=production & node index.js"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  }
+}
