@@ -5,15 +5,14 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "try.js",
   "scripts": {
-    "start-dev": "SET NODE_ENV=development & node index.js",
-    "start": "SET NODE_ENV=production & node index.js"
+    "start": "node try.js",
+    "dev": "nodemon try.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "events": "^3.3.0",
     "fs": "^0.0.1-security",
-    "lodash": "^4.17.21",
-    "moment": "^2.30.1"
+    "nodemon": "^3.1.10"
   }
 }
